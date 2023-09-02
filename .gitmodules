@@ -1,3 +1,6 @@
 [submodule "auth"]
 	path = auth
 	url = https://github.com/A7med3365/auth-microservice.git
+[submodule "client"]
+	path = client
+	url = https://github.com/A7med3365/ticketing-frontend.git

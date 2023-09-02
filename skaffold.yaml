@@ -17,3 +17,11 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: /app
+    - image: a7med3365/ticketing-client
+      context: client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: '**/*.js'
+            dest: /app
